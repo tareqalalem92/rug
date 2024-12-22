@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SantaCoin - The Festive Meme Coin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f44336, #ffc107);
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 2rem;
+            background: #8e44ad;
+        }
+        header h1 {
+            font-size: 3rem;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            background: #34495e;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            padding: 5rem 1rem;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        .button {
+            background: #27ae60;
+            padding: 1rem 2rem;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            margin-top: 2rem;
+        }
+        .roadmap, .tokenomics {
+            background: #2c3e50;
+            padding: 2rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+        }
+        .footer {
+            text-align: center;
+            background: #34495e;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .footer a {
+            color: #f1c40f;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SantaCoin 🎅</h1>
+        <p>Spreading Joy, Memes, and Crypto Cheer This Christmas!</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#community">Community</a>
+    </nav>
+    <section class="hero">
+        <h2>The Meme Coin of the Season</h2>
+        <p>Join Santa's Crypto Sleigh Ride Today!</p>
+        <a href="#how-to-buy" class="button">Buy Now</a>
+    </section>
+    <section id="about">
+        <h2>About SantaCoin</h2>
+        <p>SantaCoin is here to bring festive fun to the crypto world. Whether you're giving gifts or just having a laugh, SantaCoin is the perfect way to spread holiday cheer.</p>
+    </section>
+    <section id="tokenomics" class="tokenomics">
+        <h2>Tokenomics</h2>
+        <ul>
+            <li>Total Supply: 1 Billion</li>
+            <li>Transaction Fee: 2% to Charity, 1% Burn</li>
+            <li>Liquidity Locked: Ensuring Trust and Transparency</li>
+        </ul>
+    </section>
+    <section id="roadmap" class="roadmap">
+        <h2>Roadmap</h2>
+        <ul>
+            <li>🎅 Launch and Airdrop</li>
+            <li>🎄 Christmas Eve Burn Event</li>
+            <li>🎁 New Year's NFT Giveaway</li>
+            <li>🌟 Expansion Beyond the Holidays</li>
+        </ul>
+    </section>
+    <section id="community">
+        <h2>Join Our Community</h2>
+        <p>Connect with us on:</p>
+        <ul>
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Discord</a></li>
+        </ul>
+    </section>
+    <section id="how-to-buy">
+        <h2>How to Buy</h2>
+        <p>1. Install MetaMask or Trust Wallet</p>
+        <p>2. Add Funds (ETH/BNB)</p>
+        <p>3. Connect to PancakeSwap/Uniswap</p>
+        <p>4. Swap for SantaCoin</p>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 SantaCoin | <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+    </footer>
+</body>
+</html>
